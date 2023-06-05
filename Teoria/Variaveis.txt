@@ -1,0 +1,11 @@
+- Variáveis Simples
+$nome = 'Vitor';
+echo 'Meu nome é $nome';
+
+$idade = 31;
+echo 'Minha idade é $idade';
+
+- Constantes: não podem ser alteradas, devem ser MAIUSCULA
+const CIDADE = 'Carmo do Paranaiba'
+echo 'A cidade é' .CIDADE;
+(OBS: quando tem o $ pode usar o templateliterals, quando não tem o $ deve usar o .nome_constante fora das aspas)
