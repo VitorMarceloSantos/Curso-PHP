@@ -1,0 +1,48 @@
+-> Escalares:
+  - string: cadeia de caracteres
+  - int ou interger: valor númerico inteiro
+  - float ou double: valor ponto flutuante( real não existe mais a partir da versão 7 do PHP)
+  - boolean ou bool: valores lógicos(true(1)/false(vazio))
+
+  *var_dump(variavel) -> exibe o tipo e valor da variável
+
+-> Compostos:
+  - array: pode utilizar varios tipos primitivos dentro do array: [1, 'Vitor', 3.45, false]
+  - object: usado com classes.
+  class Pessoa {
+    private string $name;
+  }
+  $p = new Pessoa;  -> Object
+
+-> Especiais:
+  - null:
+  - resource:
+  - callabe:
+  - mixed:
+
+
+-> Formatos de String:
+  - double quoted(""): existe a interpretação do conteúdo da string, consegue ler o valor armazenado em uma variável.
+  Exemplo:
+    $nome = 'Vitor'
+    echo "O meu nome é $nome." -> Saída: O meu nome é Vitor.
+  - single quoted(''): não interpreta o conteudo, apenas exibe o que esta escrito.
+  Exemplo:
+    $idade = 31;
+    echo 'A idade é $idade.' -> Saída: A idade é $idade.
+
+  "Curso"."PHP"  *O ponto(.) faz o papel de concatenação de string.
+  -> Para constantes deve utilizar a concatenação(.)
+
+  -> Sequência de escape: utilizado para escrever um caracter(\)
+    \n - nova linha
+    \t - tabulacao
+    \\ - barra invertida
+    \$ -  cifrão
+    \u - unicode
+    \" - aspas duplas
+    \' - aspas simples
+    Exemplo:
+    $nom = 'Rodrigo';
+    $snon = 'Nogueira';
+    echo "$non \"Minotauro\" $snon"; -> Saída: Rodrigo "Minoutauro" Nogueira
