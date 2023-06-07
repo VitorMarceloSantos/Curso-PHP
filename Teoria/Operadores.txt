@@ -1,0 +1,19 @@
+Operadores:
+ -> ponto(.): concatenação
+ Exemplo: "2"."2" = "22"
+ -> adição(+): soma os valores(caso de string será feita a conversão para numero, caso não consiga realizar a conversão será apresentado um erro -> em versões antigas o retorno caso não consiga converter será inteiro(0))
+ Exemplo: "2"+"2" = inteiro(4)
+ -> subtração(-)
+ -> multiplicacao(*)
+ -> divisao(/)
+ -> modulo(%): resto da divisao
+ Exemplo: 5%2 = 1
+ -> exponeciação(**)
+
+ Funções Aritmeticas
+  - abs(): valor absoluto
+  - base_convert(): convertor de base numerica
+  -ceil(cima), floor(baixo), round(aritimetico): arredondamento
+  -intdiv(): divisao inteira
+  -min(), max(): valor minimo e máximo
+  -sqrt(): raiz quadrada
