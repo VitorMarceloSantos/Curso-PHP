@@ -1,13 +1,13 @@
 Imagem Docker do PHP - Apache
   - Imagem: docker pull php:8.1.19-apache
   - compose: docker-compose up
-
+-> Id do container : docker ps
 -> Executar Arquivo PHP:
   - docker cp nome_do_arquivo id_do_container:/var/www/html
   - navegador: localhost/nome_do_arquivo
 
   Exemplo:
-    - docker cp exercicio-01.php cd6736711bb2:/var/www/html
+    - docker cp exercicio-01.php 4c8eb1513949:/var/www/html
     - localhost/exercicio-01.php
     (OBS: o terminal deve está aberto na pasta que contém o arquivo que vai ser copiado)
 
