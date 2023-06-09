@@ -1,0 +1,12 @@
+-> $_GET: informações pela URL, envia dados com informações pela url(visível)
+-> $_POST: informações pelo cabeçalho, os dados enviados não ficam visíveis na url, porém em rede->conteúdo os dados ficam visíveis.
+-> $_REQUEST: recebe as informações de GET e POST, quando tiver informações de ambos os métodos, o REQUEST irá adicionar todas as informações no mesmo array.
+-> COOKIE: acesso aos cookies da aplicaçao php
+->$_FILES: pegar informações de arquivos em que foram realizados uploads
+->$_SESSION: informações obtidas das sessões
+->$_ENV: enviroment(informações do ambiente)
+->$_SERVER: informações do servidor
+->$GLOBALS: mostrar informações de todas as globais
+-> Tem como passar informações ao mesmo tempo utilizando os métodos GET e POST : 
+  action="superglobais.php?tipo="Aluno"&turno=Noite" method="post"
+  as informações do POST será passados pelos inputs no formulário, já as informações do GET está sendo passadas no action(url).
